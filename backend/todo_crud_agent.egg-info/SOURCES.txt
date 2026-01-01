@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+todo_crud_agent.egg-info/PKG-INFO
+todo_crud_agent.egg-info/SOURCES.txt
+todo_crud_agent.egg-info/dependency_links.txt
+todo_crud_agent.egg-info/entry_points.txt
+todo_crud_agent.egg-info/requires.txt
+todo_crud_agent.egg-info/top_level.txt

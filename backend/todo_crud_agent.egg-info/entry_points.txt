@@ -1,0 +1,2 @@
+[console_scripts]
+init-db = backend.src.database.init_db:main
