@@ -3,7 +3,7 @@
 from contextlib import contextmanager
 from typing import Generator
 from sqlmodel import create_engine, Session, SQLModel
-from backend.src.config import get_settings
+from src.config import get_settings
 
 settings = get_settings()
 

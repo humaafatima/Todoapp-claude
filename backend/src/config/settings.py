@@ -20,6 +20,13 @@ class Settings(BaseSettings):
     # Database Configuration
     database_url: str = "sqlite:///./data/todo.db"  # Default to SQLite
 
+    # JWT Authentication Configuration
+    jwt_secret: str = ""  # Required for JWT token signing/verification
+    jwt_algorithm: str = "HS256"  # JWT signing algorithm
+
+    # CORS Configuration
+    allowed_origins: list[str] = ["http://localhost:3000"]  # Frontend URLs
+
     # Logging Configuration
     log_level: str = "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
 

@@ -1,6 +1,6 @@
 """MCP tool implementations."""
 
-from backend.src.tools.task_tools import (
+from src.tools.task_tools import (
     add_task,
     list_tasks,
     update_task,
