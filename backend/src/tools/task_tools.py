@@ -3,9 +3,9 @@
 from datetime import datetime
 from typing import Optional
 from sqlmodel import select
-from backend.src.models import Task
-from backend.src.database import get_session
-from backend.src.exceptions import TaskNotFoundError, ValidationError, DatabaseError
+from src.models import Task
+from src.database import get_session
+from src.exceptions import TaskNotFoundError, ValidationError, DatabaseError
 
 
 def add_task(user_id: str, title: str, description: str = "") -> dict:

@@ -1,6 +1,6 @@
 """Custom exceptions."""
 
-from backend.src.exceptions.errors import (
+from src.exceptions.errors import (
     TaskNotFoundError,
     ValidationError,
     DatabaseError,
